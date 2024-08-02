@@ -14,7 +14,8 @@ const config = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1', 
     '^@components/(.*)$': '<rootDir>/src/components/$1', 
-    '^@lib/(.*)$': '<rootDir>/src/lib/$1', 
+      '^@lib/(.*)$': '<rootDir>/src/lib/$1', 
+    // Add here all modules you need
   },
 };
 
