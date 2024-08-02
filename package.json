@@ -1,5 +1,5 @@
 {
-    "name": "dream-travels",
+    "name": "nextjs-styled-boiler",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -7,19 +7,19 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "test": "jest --config jest.config.js"
+        "test": "jest --config jest.config.js",
+        "prepare": "husky"
     },
     "dependencies": {
         "@types/styled-components": "^5.1.34",
         "next": "14.2.5",
-        "prettier": "^3.3.3",
         "react": "^18",
         "react-dom": "^18",
-        "react-hook-form": "^7.52.1",
-        "styled-components": "^6.1.12",
-        "zustand": "^4.5.4"
+        "styled-components": "^6.1.12"
     },
     "devDependencies": {
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
         "@testing-library/jest-dom": "^6.4.8",
         "@testing-library/react": "^14.0.0",
         "@testing-library/user-event": "^14.5.2",
@@ -30,11 +30,13 @@
         "clear": "^0.1.0",
         "eslint": "^8",
         "eslint-config-next": "14.2.5",
+        "husky": "^9.1.4",
         "install": "^0.13.0",
         "jest": "^29.5.0",
         "jest-environment-jsdom": "^29.5.0",
         "jest-styled-components": "^7.2.0",
         "jest-transform-graphql": "^2.1.0",
+        "prettier": "3.3.3",
         "ts-jest": "^29.2.3",
         "ts-node-dev": "^2.0.0",
         "typescript": "^5.5.4"
