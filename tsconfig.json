@@ -28,6 +28,7 @@
       "@hooks/*": ["lib/hooks/*"],
       "@hocs/*": ["lib/hocs/*"],
       "@utils/*": ["lib/utils/*"]
+      // Modify and adapt to your current arquitecture
     }
   },
   "includes": [
@@ -40,6 +41,12 @@
     "**/*.json",
     ".next/types/**/*.ts"
   ],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "./jest.setup.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "./jest.setup.ts"
+  ],
   "exclude": ["node_modules"]
 }

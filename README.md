@@ -1,4 +1,4 @@
-This is a Next.js boilerplate with Typescript, Styled-Components and Jest config ready to use. 
+This is a Next.js boilerplate with Typescript, Styled-Components and Jest config ready to use.
 
 ## Getting Started
 
