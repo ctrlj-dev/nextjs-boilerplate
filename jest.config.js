@@ -7,7 +7,8 @@ const createJestConfig = nextJest({
 
 /** @type {import('jest').Config} */
 const config = {
-  verbose: true,
+    verbose: true,
+    watch: false,
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testEnvironment: 'jest-environment-jsdom',
   moduleNameMapper: {
