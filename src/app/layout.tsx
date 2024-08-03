@@ -8,8 +8,8 @@ const nunito = Nunito({
   display: 'swap',
 });
 export const metadata: Metadata = {
-  title: 'Dream Travels',
-  description: 'Find the best travel',
+  title: 'Next.js boilerplate',
+  description: 'Base config for Next.js, Husky, Styled-Components and Jest',
 };
 
 export default function RootLayout({
